@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'cocogoose' ;
+    src: url(Cocogoose\ Pro\ Semilight-trial.ttf) format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor01:#EFBCD5;
+    --cor02:#BE97C6;
+    --cor03:#8661C1;
+    --cor04:#2E294E;
+    --cor05:#4B5267;
+
+    --fonte-padrao:Arial,Verdana,Helvetica,sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive; ;
+    --fonte-de-capa:'cocogoose' ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: var(--cor05);
+}
+
+header{
+    background-color:var(--cor05) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+header h1{
+    
+    font-family: 'cocogoose';
+}
+
+header p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    gap: 30px;
+    padding: 24px;
+    font-family: 'Bebas Neue', cursive;;
+}
+
+header img{
+    
+   width:25%;
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    background-color: grey;
+}
