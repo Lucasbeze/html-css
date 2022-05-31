@@ -1,0 +1,64 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'alamedafont';
+    src: url(fonts/alamedafont.otf.otf) format('opentype');
+}
+
+body{
+   background-color: #4B5267;
+    
+}
+h1{
+    font-family: 'alamedafont' ;
+    color: #EFBCD5;
+    text-align: center;
+    height: auto;
+    
+}
+p{
+   text-align: center;
+   width: auto;
+   height: auto;
+}
+.botoes{
+    background-position: center;
+   display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 195px;
+    height: 50px;
+    margin: 30px;
+    
+}
+a{
+    color: #8661C1;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    
+}
+
+a:hover{
+    color: #BE97C6;
+
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    margin: auto;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}

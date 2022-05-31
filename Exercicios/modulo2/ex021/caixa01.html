@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{   /* BOX-LEVEL*/
+
+   background-color: lightgray;
+
+   height: 300px;
+   width: 300px;
+   
+   /*                                SHORTHANDS
+   border-width: 10px;
+   border-style: solid;
+   border-color: darkslategray;
+   */
+
+   border:10px solid darkslategray;
+
+   /* Se as 4 forem iguais basta você informar uma vez só !
+      Se voce coloca 2 valores como ele e interpretado no sentido horario voce colocando somente 2 valores ele vai corresponder a altura e a largura entao por exemplo.
+      paddin:10px 20px;
+      ele vai informar que :padding-top:10px ;
+                            padding-right:20px ;
+                            padding-bottom:10px ;
+                            padding-left:20px ;
+    Então resumindo quando voce coloca 1 valor todos ficam no mesmo valor.
+    colocando 2 valores o de cima e o debaixo ficam iguais , e o da esquerda e da direita também ficam iguais.
+
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+
+   padding: 10px 10px 10px 10px;
+    */
+
+    padding:10px 20px;
+
+    /* centralizando com shorthand e o seguinte .
+
+            quando voce colocar a margem da esqueda e a da direita em auto ele automaticamente irá centralizar a margen mas mantendo a margem de cima e a margem de baixo.
+
+   margin-top: 20px;
+   margin-right: 20px;
+   margin-bottom: 40px;
+   margin-left: 20px;
+*/
+margin: 20px auto 40px auto;
+
+/* Sempre nessa ordem.
+   outline-width: 5px;
+   outline-style: dashed;
+   outline-color: salmon;
+*/
+    outline: 5px dashed salmon;
+
+}
+a{ /* INLINE-LEVEL*/
+    display:block;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level ,mas os <a href="#"> links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona. </p></a>
+</body>
+</html>
